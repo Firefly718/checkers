@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 10px;
+}
+.checkers--wrapper {
+	margin: 0 auto;
+	width: 43rem;
+	height: 43rem;
+	background-image: url(../img/checkerboard.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.line {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	position: absolute;
+}
+.checker {
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+}
+.checker:not(:last-child) {
+	margin-right: 5.45rem;	
+}
+
+.checker--red {
+	background-color: red;
+	border: .2rem solid black;
+}
+.checker--blue {
+	background-color: blue;
+	border: .2rem solid black;
+}
+.line__1 {
+	bottom: 4rem;
+	left: 8.72rem;	
+}
+.line__2 {
+	bottom: 8.55rem;
+	left: 4.25rem;	
+}
+.line__3 {
+	bottom: 13rem;
+	left: 8.72rem;	
+}
+.line__4 {
+	top: 13rem;
+	left: 4.25rem;	
+}
+.line__5 {
+	top: 8.65rem;
+	left: 8.72rem;	
+}
+.line__6 {
+	top: 4rem;
+	left: 4.25rem;	
+}
